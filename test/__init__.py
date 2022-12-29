@@ -5,7 +5,7 @@ import numpy as np
 
 from tqdm import tqdm
 
-from test.test1 import dictlist, temp
+##from test.test1 import dictlist, temp
 
 
 def get_Lotto_Win_Info(start_Round, end_Round):
@@ -173,14 +173,17 @@ import matplotlib.pyplot as plt
 
 x=np.arange(1,6)
 y=1.5*x+1.8
-plt.plot(x,y)#옵션
-#plt.show()
+##plt.plot(x,y)#옵션
+##plt.show()
 x__data=[x for x in [1,2,3,4,5]]
 y__data=[y for y in [3,5,7,8,9]]
-plt.grid()
-plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
-plt.show()
+##plt.grid()
+##plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
+##plt.show()
 
-dictlist.append(temp)
-sorted_dict= sorted(dictlist, key=getKey, reverse=True) # list를 입력 줄 수로 정렬
-print (sorted_dict[:100]) # List의 상위 10객값만 출
+##dictlist.append(temp)
+##sorted_dict= sorted(dictlist, key=getKey, reverse=True) # list를 입력 줄 수로 정렬
+##print (sorted_dict[:100]) # List의 상위 10객값만 출
+
+test=np.array([[1,2,3,4],[1,2,5,8]]).reshape(8,)
+print(test)
