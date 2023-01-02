@@ -42,5 +42,5 @@ def numerical_derivative2(f,x):
     return grad
 
 
-result1=numerical_derivative2(my_func1,np.array([1.0,2.0]))
-result2=numerical_derivative2(my_func2, np.array([[1.0,2.0],[5.0,4.0]]))
+##result1=numerical_derivative2(my_func1,np.array([1.0,2.0]))
+##result2=numerical_derivative2(my_func2, np.array([[1.0,2.0],[5.0,4.0]]))

@@ -5,8 +5,6 @@ import numpy as np
 
 from tqdm import tqdm
 
-##from test.test1 import dictlist, temp
-
 
 def get_Lotto_Win_Info(start_Round, end_Round):
 
@@ -71,8 +69,3 @@ y__data=[y for y in [3,5,7,8,9]]
 ##plt.grid()
 ##plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
 ##plt.show()
-
-##dictlist.append(temp)
-##sorted_dict= sorted(dictlist, key=getKey, reverse=True) # list를 입력 줄 수로 정렬
-##print (sorted_dict[:100]) # List의 상위 10객값만 출
-
