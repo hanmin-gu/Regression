@@ -42,17 +42,19 @@ def numerical_derivative2(f,x):
 
     return grad
 
-#x_data = np.random.rand(100)
-#y_data = np.random.rand(100)
-#plt.title('test')
-#plt.grid()#격자
-#plt.scatter(x_data, y_data, color= 'b',marker='o' )#옵션
-#plt.show()
+"""
+x_data = np.random.rand(100)
+y_data = np.random.rand(100)
+plt.title('test')
+plt.grid()#격자
+plt.scatter(x_data, y_data, color= 'b',marker='o' )#옵션
+plt.show()
 x__data=[x for x in range(-10,10)]
 y__data=[y for y in range(-10,10)]
-#plt.grid()
-#plt.plot(x__data, y__data, color= 'b' )#옵션
-#plt.show()
+plt.grid()
+plt.plot(x__data, y__data, color= 'b' )#옵션
+plt.show()
+"""
 
 
 x_data=np.array([1,4,2,1,5,6,7,3,1,1]).reshape(10,1)

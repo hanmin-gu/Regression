@@ -70,3 +70,17 @@ y__data=[y for y in [3,5,7,8,9]]
 plt.grid()
 plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
 plt.show()
+
+"""
+x_data = np.random.rand(100)
+y_data = np.random.rand(100)
+plt.title('test')
+plt.grid()#격자
+plt.scatter(x_data, y_data, color= 'b',marker='o' )#옵션
+plt.show()
+x__data=[x for x in range(-10,10)]
+y__data=[y for y in range(-10,10)]
+plt.grid()
+plt.plot(x__data, y__data, color= 'b' )#옵션
+plt.show()
+"""
