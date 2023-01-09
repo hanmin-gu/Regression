@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 import numpy as np
 
@@ -71,6 +71,7 @@ plt.grid()
 plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
 plt.show()
 
+
 """
 x_data = np.random.rand(100)
 y_data = np.random.rand(100)
@@ -78,6 +79,7 @@ plt.title('test')
 plt.grid()#격자
 plt.scatter(x_data, y_data, color= 'b',marker='o' )#옵션
 plt.show()
+
 x__data=[x for x in range(-10,10)]
 y__data=[y for y in range(-10,10)]
 plt.grid()
