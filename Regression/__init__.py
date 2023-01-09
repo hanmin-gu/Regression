@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+import matplotlib as plt
 
 import numpy as np
 
@@ -62,10 +63,10 @@ end_Round = 100
 
 x=np.arange(1,6)
 y=1.5*x+1.8
-##plt.plot(x,y)#옵션
-##plt.show()
+plt.plot(x,y)#옵션
+plt.show()
 x__data=[x for x in [1,2,3,4,5]]
 y__data=[y for y in [3,5,7,8,9]]
-##plt.grid()
-##plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
-##plt.show()
+plt.grid()
+plt.scatter(x__data, y__data, color= 'b',marker='o' )#옵션
+plt.show()
