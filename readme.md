@@ -6,7 +6,6 @@ Linear Regression(선형회귀)
 
 
 
-Linear Regression calcualate process
 
 - input data
 - learning (손실함수 값 계산)
